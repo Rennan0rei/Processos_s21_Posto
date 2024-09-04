@@ -2,7 +2,7 @@ from bomba_etanol import BombaEtanol
 from bomba_gasolina import BombaGasolina
 
 def exibir_menu():
-    """Exibe o menu de opções para o usuário."""
+    "Exibe o menu de opções para o usuário."
     print("\nMenu:"
         "1. Abastecer Etanol por valor"
         "2. Abastecer Etanol por litro"
@@ -15,7 +15,7 @@ def exibir_menu():
           )
 
 def main():
-    """Função principal que executa o menu e gerencia a interação com o usuário."""
+    "Função principal que executa o menu e gerencia a interação com o usuário."
     #Inicializa as bombas de combustível
     bomba_etanol = BombaEtanol(3.59, 1000)
     bomba_gasolina = BombaGasolina(4.89, 1000)
