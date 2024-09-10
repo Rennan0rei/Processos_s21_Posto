@@ -3,16 +3,16 @@ from bomba_gasolina import BombaGasolina
 
 def exibir_menu():
     "Exibe o menu de opções para o usuário."
-    print("\nMenu:"
-        "1. Abastecer Etanol por valor"
-        "2. Abastecer Etanol por litro"
-        "3. Abastecer Gasolina por valor"
-        "4. Abastecer Gasolina por litro"
-        "5. Abastecer Gasolina com aditivo por valor"
-        "6. Abastecer Gasolina com aditivo por litro"
-        "7. Mostrar status das bombas"
-        "0. Sair"
-          )
+    print('''\nMenu:
+        1. Abastecer Etanol por valor
+        2. Abastecer Etanol por litro
+        3. Abastecer Gasolina por valor
+        4. Abastecer Gasolina por litro
+        5. Abastecer Gasolina com aditivo por valor
+        6. Abastecer Gasolina com aditivo por litro
+        7. Mostrar status das bombas
+        0. Sair
+          ''')
 
 def main():
     "Função principal que executa o menu e gerencia a interação com o usuário."
