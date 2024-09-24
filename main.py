@@ -13,7 +13,6 @@ def exibir_menu():
         7. Mostrar status das bombas
         0. Sair
           ''')
-
 def main():
     "Função principal que executa o menu e gerencia a interação com o usuário."
     #Inicializa as bombas de combustível

@@ -32,3 +32,4 @@ class BombaGasolina(BombaCombustivel):
         print(f"Abastecido {litros} litros de gasolina.")
         self.set_quantidade_disponivel(self.get_quantidade_disponivel() - litros)  # Atualiza a quantidade
         return litros
+
